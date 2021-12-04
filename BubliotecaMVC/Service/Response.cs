@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace BubliotecaMVC.Service
+namespace BibliotecaMVC.Service
 {
     public class Response
     {

@@ -6237,9 +6237,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\bianc\\OneDrive\\Documents\\WCC\\BubliotecaMVC\\BubliotecaMVC\\BubliotecaMVC.csproj",
-      "projectName": "BubliotecaMVC",
-      "projectPath": "C:\\Users\\bianc\\OneDrive\\Documents\\WCC\\BubliotecaMVC\\BubliotecaMVC\\BubliotecaMVC.csproj",
+      "projectUniqueName": "C:\\Users\\bianc\\OneDrive\\Documents\\WCC\\BubliotecaMVC\\BubliotecaMVC\\BibliotecaMVC.csproj",
+      "projectName": "BibliotecaMVC",
+      "projectPath": "C:\\Users\\bianc\\OneDrive\\Documents\\WCC\\BubliotecaMVC\\BubliotecaMVC\\BibliotecaMVC.csproj",
       "packagesPath": "C:\\Users\\bianc\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\bianc\\OneDrive\\Documents\\WCC\\BubliotecaMVC\\BubliotecaMVC\\obj\\",
       "projectStyle": "PackageReference",

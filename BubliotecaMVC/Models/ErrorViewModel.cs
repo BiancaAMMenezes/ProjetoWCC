@@ -1,6 +1,6 @@
 using System;
 
-namespace BubliotecaMVC.Models
+namespace BibliotecaMVC.Models
 {
     public class ErrorViewModel
     {

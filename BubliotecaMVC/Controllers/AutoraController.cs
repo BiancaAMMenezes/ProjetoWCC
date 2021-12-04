@@ -1,6 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace BubliotecaMVC.Controllers
+namespace BibliotecaMVC.Controllers
 {
     public class AutoraController : Controller
     {

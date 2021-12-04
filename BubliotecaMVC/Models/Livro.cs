@@ -1,14 +1,9 @@
-﻿using BubliotecaMVC.Service;
+﻿using BibliotecaMVC.Service;
 using System;
 using System.Collections.Generic;
-using System.IO;
-using System.Linq;
-using System.Text;
 using System.Text.RegularExpressions;
-using System.Threading.Tasks;
-using System.Web;
 
-namespace BubliotecaMVC
+namespace BibliotecaMVC
 {
     public class Livro
     {
@@ -17,7 +12,7 @@ namespace BubliotecaMVC
         private double _preco { get; set; }
         private Autora _autora { get; set; }
         private string[] _genero { get; set; }
-        [System.ComponentModel.Bindable(true)] //indica que o private titulo executa em tempo de execução
+        [System.ComponentModel.Bindable(true)]
         private string _imagemURL { get; set; }
         private int _id { get; set; }
 
@@ -62,10 +57,6 @@ namespace BubliotecaMVC
             get { return _id; }
             set { _id = value; }
         }
-
-        //_____________________________________________________
-        //_______Construtor com e sem parametro________________
-        //_____________________________________________________
 
         public Livro()
         {
@@ -123,7 +114,7 @@ namespace BubliotecaMVC
                 Autora = new Autora(livroResposta.artistName),
                 Preco = livroResposta.price,
                 Genero = livroResposta.genres,
-                Descricao = Regex.Replace(livroResposta.description, "<[^>]*>", String.Empty),
+                Descricao = Regex.Replace(livroResposta.description, "<[^>]*>", String.Empty).Replace("&#xa0;", String.Empty),
                 ImagemURL = livroResposta.artworkUrl60
             };
             return livro;

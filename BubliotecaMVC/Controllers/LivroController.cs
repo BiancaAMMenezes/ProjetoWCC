@@ -1,21 +1,17 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 
-namespace BubliotecaMVC.Controllers
+namespace BibliotecaMVC.Controllers
 {
     public class LivroController : Controller
     {
-        public IActionResult Livro(string textoPesquisa) //precisa ser o mesmo nome da variavel q está na view
+        public IActionResult Livro(string textoPesquisa)
         {
-            /*
-            var listaDeLivros = new Livro("Primeiro Livro", "", new Autora("Fulana1"), 20.5, new string[] { });
-            return View(listaDeLivros.ListaDeLivros);
-            */
 
             Livro livro = new Livro();
             var listaDeLivros = livro.GetLivros(textoPesquisa);
             return View(listaDeLivros);
         }
-        public IActionResult LivroDetail(int Id) //precisa ser o mesmo nome da variavel q está na view
+        public IActionResult LivroDetail(int Id)
         {
             var livro = new Livro().GetLivroPeloId(Id);
             return View(livro);

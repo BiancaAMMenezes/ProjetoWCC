@@ -1,14 +1,10 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using System.Collections.Generic;
 
-namespace BubliotecaMVC
+namespace BibliotecaMVC
 {
     public class Autora
     {
-        private string _nome { get; set; } //get resgatar, set publicar
+        private string _nome { get; set; }
 
         public Autora() { }
 

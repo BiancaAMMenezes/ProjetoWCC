@@ -14,20 +14,20 @@ namespace AspNetCore
     using Microsoft.AspNetCore.Mvc.ViewFeatures;
 #nullable restore
 #line 1 "C:\Users\bianc\OneDrive\Documents\WCC\BubliotecaMVC\BubliotecaMVC\Views\_ViewImports.cshtml"
-using BubliotecaMVC;
+using BibliotecaMVC;
 
 #line default
 #line hidden
 #nullable disable
 #nullable restore
 #line 2 "C:\Users\bianc\OneDrive\Documents\WCC\BubliotecaMVC\BubliotecaMVC\Views\_ViewImports.cshtml"
-using BubliotecaMVC.Models;
+using BibliotecaMVC.Models;
 
 #line default
 #line hidden
 #nullable disable
     [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"99464617055fdb505bb0bb7fd91f9b14f7b0d030", @"/Views/Home/Index.cshtml")]
-    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"76d7cb2f78a9418817eebe6b9cafb351e42b5fef", @"/Views/_ViewImports.cshtml")]
+    [global::Microsoft.AspNetCore.Razor.Hosting.RazorSourceChecksumAttribute(@"SHA1", @"754068e205fb75f1f1a1e44ec2818872f5e92324", @"/Views/_ViewImports.cshtml")]
     public class Views_Home_Index : global::Microsoft.AspNetCore.Mvc.Razor.RazorPage<dynamic>
     {
         #pragma warning disable 1998
