@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "fNkIH90RMJxzyUf0NQEuP1mIAQYVI/QoGo0ZvIVO+GESztExaSxDFyRdYPSFUWJpm1TeLT+F1Rgixcjihp8gsA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\bianc\\OneDrive\\Documents\\WCC\\BubliotecaMVC\\Teste\\Teste.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\bianc\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.12\\microsoft.netcore.app.host.win-x64.5.0.12.nupkg.sha512"
+  ],
+  "logs": []
+}

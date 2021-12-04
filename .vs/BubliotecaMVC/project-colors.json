@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "6a91c6a8-974e-4295-a696-063d8a7a8411": {
+      "ProjectGuid": "6a91c6a8-974e-4295-a696-063d8a7a8411",
+      "DisplayName": "BubliotecaMVC",
+      "ColorIndex": 0
+    },
+    "b9a31ed2-504b-41b9-addd-4172ce33dee2": {
+      "ProjectGuid": "b9a31ed2-504b-41b9-addd-4172ce33dee2",
+      "DisplayName": "Teste",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
